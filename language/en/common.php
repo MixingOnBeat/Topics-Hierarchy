@@ -3,7 +3,7 @@
  *
  * Topics Hierarchy. [English]. An extension for the phpBB Forum Software package.
  *
- * @copyright (c) 2016, 3Di, http://3di.space/32/
+ * @copyright (c) 2016, 2017 - 3Di, http://3di.space/32/
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
  */
@@ -34,7 +34,8 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'GLOBAL_ANNOUNCEMENTS'	=> 'Global Announcements',
-	'STICKIES'				=> 'Stickies',
-	'ACTIVE_STICKIES'		=> 'Active Stickies',
+	'GLOBAL_ANNOUNCEMENTS'			=>	'Global Announcements',
+	'STICKIES'						=>	'Stickies',
+	'ACTIVE_STICKIES'				=>	'Active Stickies',
+	'EXTENSION_REQUIREMENTS_NOTICE'	=>	'Your phpBB installation doesn\'t meet the requirements of <strong>Topics Hierarchy</strong> extension.<br />You need at least phpBB 3.1.10 and/or <strong>NOT</strong>phpBB 3.2.0.',
 ));

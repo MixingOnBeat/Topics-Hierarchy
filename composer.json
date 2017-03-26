@@ -3,8 +3,8 @@
     "type": "phpbb-extension",
     "description": "Separate announcements, stickies and active stickies",
     "homepage": "http://3di.space/32/",
-    "version": "1.0.0-RC1",
-    "time": "2016-11-22",
+    "version": "1.0.1",
+    "time": "2016-01-17",
     "license": "GPL-2.0",
     "authors": [
         {
@@ -15,15 +15,18 @@
         }
     ],
     "require": {
-        "php": ">=5.3.3"
+        "php": ">=5.3.3",
+        "phpbb/phpbb": ">=3.1.10,<3.2.0@dev"
     },
     "extra": {
         "display-name": "Topics Hierarchy",
         "soft-require": {
             "phpbb/phpbb": ">=3.1.10,<3.2.0@dev"
+        },
+        "version-check": {
+            "host": "www.phpbb.com",
+            "directory": "/customise/db/extension/topics_hierarchy",
+            "filename": "version_check"
         }
-    },
-    "require-dev": {
-        "phing/phing": "2.4.*"
     }
 }
