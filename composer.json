@@ -1,0 +1,29 @@
+{
+    "name": "threedi/topicshierarchy",
+    "type": "phpbb-extension",
+    "description": "Separate announcements, stickies and active stickies",
+    "homepage": "http://3di.space/32/",
+    "version": "1.0.0-RC1",
+    "time": "2016-11-22",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "3Di",
+            "email": "three3di@hotmail.it",
+            "homepage": "http://3di.space/32/",
+            "role": "Lead Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "extra": {
+        "display-name": "Topics Hierarchy",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.1.10,<3.2.0@dev"
+        }
+    },
+    "require-dev": {
+        "phing/phing": "2.4.*"
+    }
+}

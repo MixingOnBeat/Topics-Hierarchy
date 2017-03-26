@@ -1,0 +1,5 @@
+services:
+    threedi.topicshierarchy.listener:
+        class: threedi\topicshierarchy\event\main_listener
+        tags:
+            - { name: event.listener }
