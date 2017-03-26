@@ -1,11 +1,17 @@
-# Topics Hierarchy
+# Topics-Hierarchy extension for phpBB [3.1] and [3.2]
+ Separate announcements, stickies and active stickies.
+ 
+ This repository is the bugs/features tracker for it.
+ 
+## Support topics
 
-## Installation
-
-Copy the extension to phpBB/ext/threedi/topicshierarchy
-
-Go to "ACP" > "Customise" > "Extensions" and enable the "Topics Hierarchy" extension.
-
-## License
-
-[GPLv2](license.txt)
+ phpbb.com [3.1] and [3.2]
+ https://www.phpbb.com/customise/db/extension/topics_hierarchy/support
+ 
+ 3di.space [3.1]
+ https://3di.space/32/viewtopic.php?f=4&t=16
+ 
+ 3di.space [3.2] 
+ https://3di.space/32/viewtopic.php?f=4&t=18
+ 
+ 
